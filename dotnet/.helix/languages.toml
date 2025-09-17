@@ -1,0 +1,14 @@
+[[language]]
+name = "fsharp"
+auto-format = true
+formatter = { command = "fsharpfmt" }
+
+[[language]]
+name = "c-sharp"
+auto-format = true
+formatter = { command = "dotnet-csharpier", args = ["--write-stdout"] }
+
+[[language]]
+name = "msbuild"
+auto-format = true
+formatter = { command = "xq", args = ["--no-color"] }
